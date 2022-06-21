@@ -65,9 +65,7 @@
     }
 }
 @media screen and (max-width:576px){
-    .navbar--nav{
-        display: none !important;
-    }
+   
     .navbar .col-12{
         margin: 10px 0;
     }
@@ -77,4 +75,22 @@
     .section--title h5{
         font-size: 13px;
     }
+    .bar-icon{
+        display: inline-block;
+    }
+    .navbar--nav{
+        position: relative;
+        text-align: right;
+        transition: all 0.5s ;
+        width: 100%;
+        height: 0;
+        right: -250px;
+        overflow: hidden;
+        display: block !important;
+    }
+    .nav--item ul{
+        top: 0;
+        display: none !important;
+    }
+    
 }                                                         

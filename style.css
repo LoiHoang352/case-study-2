@@ -9,10 +9,27 @@
 header {
     background-color: #212529;
 }
-
+.header-list{
+    position: relative;
+}
 .navbar{
     padding: 0;
 
+}
+
+.bar-icon{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #c19e68;
+    cursor: pointer;
+}
+.navbar .expand{
+    text-align: right;
+    right: 0;
+    display: block;
+    height: 250px;
 }
 .nav--item{
     position: relative;
